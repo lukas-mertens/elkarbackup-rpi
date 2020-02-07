@@ -4,7 +4,7 @@ RUN apk add --no-cache \
       git \
       curl \
       grep \
-      default-mysql-client \
+      mysql-client \
       acl \
       rsnapshot \
     && docker-php-ext-install \
