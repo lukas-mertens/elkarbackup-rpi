@@ -1,6 +1,6 @@
 FROM php:7.1-apache
 RUN apt-get update && apt-get install -y \
-      default-mysql-client \
+      mariadb-client \
       acl \
       rsnapshot \
       sudo \
